@@ -3,6 +3,8 @@ import '../widgets/primary_button.dart';
 import './candidate_list_screen.dart'; // Importer le modèle de Candidate
 
 class VotingConfirmationScreen extends StatelessWidget {
+  const VotingConfirmationScreen({super.key});
+
   void _confirmVote(BuildContext context) {
     // Simulation de confirmation de vote
     Navigator.pushNamedAndRemoveUntil(

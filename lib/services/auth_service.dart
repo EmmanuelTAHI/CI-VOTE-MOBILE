@@ -117,7 +117,7 @@ class AuthService {
     }
 
     // Simulation d'envoi d'email de réinitialisation
-    print('Email de réinitialisation envoyé à $email');
+    //print('Email de réinitialisation envoyé à $email');
   }
 }
 
